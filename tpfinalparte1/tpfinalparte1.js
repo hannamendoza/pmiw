@@ -1,6 +1,7 @@
 //Juan Cruz Peri y Hanna Mendoza
 //La bruja de abril, Ray Bradbury
 //Comision 1
+//Link: https://youtu.be/GgocNLDqjhA?si=CJyl1rtoaxt7nHUU
 
 let imagen=[];
 let estado=0;
@@ -348,3 +349,4 @@ function mousePressed() {
     }
   }
 }
+
