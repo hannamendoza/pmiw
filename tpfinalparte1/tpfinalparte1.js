@@ -12,7 +12,7 @@ let frases=['Ella es Cecy Elliot, una bruja de 17 años con un don único: puede
   'Cecy comprende que esta mal interferir en la vida de Ann. Con tristeza, abandona el cuerpo.', 'Cecy vuelve sola, sabiendo que nunca podrá tener lo que desea.', 'Cecy le confiesa que es una bruja que ha estado habitando el cuerpo de Ann y que todo lo vivido fue resultado de sus decisiones. Aun así, le pide a Tom una oportunidad para que la conozca tal como es.', 'Tom acepta lo que Cecy es y le da una oportunidad para conocerse. Ella renuncia a sus poderes para poder estar con él.', 'Tom rechaza la idea de estar con una bruja, y Cecy devastada, comprende que quizas el amor no es para ella. Al tiempo muere de tristeza... '];
 function preload() {
   escobi = loadImage ('data/escobi.png');
-  creditos = loadImage('data/creditos.png');
+  creditos = loadImage('data/creditos.jpg');
   sonidon = loadImage('data/sonidon.png');
   sonidoff = loadImage('data/sonidoff.png');
 
@@ -20,7 +20,7 @@ function preload() {
   magic = loadSound('data/magicSound.mp3');
 
   for (let i=0; i<15; i++) {
-    imagen[i]=loadImage('data/'+i+'.png');
+    imagen[i]=loadImage('data/'+i+'.jpg');
   }
 }
 
