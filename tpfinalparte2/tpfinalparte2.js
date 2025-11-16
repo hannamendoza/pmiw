@@ -1,5 +1,6 @@
 //Comision 1
 //Hanna Mendoza y Juan Cruz Peri
+//link del video
 let juego;
 let estado=[];
 let fondo, Annimg, Cecyimg, hechizo, portal, reloj;
@@ -42,3 +43,4 @@ function mouseClicked(){
 juego.estados();
 juego.sonido();
 }
+
